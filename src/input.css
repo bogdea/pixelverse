@@ -2,10 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: #03045e;
+}
+
 .container {
   max-width: 1100px;
   padding: 0 20px;
   margin: auto;
+}
+
+/* buttons */
+.primary-btn {
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  background: var(--primary-color);
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  transition: 0.2s;
+}
+
+.primary-btn:hover {
+  color: #000;
+  background: #fff;
+  border: 2px solid black;
 }
 
 /* hamburger menu button */
