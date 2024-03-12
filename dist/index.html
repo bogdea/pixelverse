@@ -6,7 +6,57 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
-  <body>
-    <script src="./dist/script.js"></script>
+  <body class="relative overflow-hidden">
+    <!-- desktop navbar -->
+    <div class="justify-center items-center h-20">
+      <div class="flex justify-between items-center h-full container">
+        <h1 class="text-3xl">Pixelverse</h1>
+
+        <!-- hamburger menu button -->
+        <div class="relative z-10 md:hidden w-[40px] h-[50px] hamburger-menu">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </div>
+
+        <!-- desktop navbar links -->
+        <ul class="md:flex space-x-3 hidden">
+          <li>
+            <a href="#" class="text-xl">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-xl">Services</a>
+          </li>
+          <li>
+            <a href="#" class="text-xl">Team</a>
+          </li>
+          <li>
+            <a href="#" class="text-xl">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- mobile navbar links -->
+    <div
+      class="top-[1000px] top-0 right-0 absolute flex justify-center items-center md:hidden w-full h-screen transition-all mobile-navbar"
+    >
+      <ul class="flex flex-col space-y-3 text-center">
+        <li>
+          <a href="#" class="text-2xl">Home</a>
+        </li>
+        <li>
+          <a href="#" class="text-2xl">Services</a>
+        </li>
+        <li>
+          <a href="#" class="text-2xl">Team</a>
+        </li>
+        <li>
+          <a href="#" class="text-2xl">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
