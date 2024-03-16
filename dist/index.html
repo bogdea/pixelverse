@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
-  <body class="relative overflow-hidden">
+  <body class="relative">
     <!-- desktop navbar -->
     <div class="justify-center items-center h-20">
       <div class="flex justify-between items-center h-full container">
@@ -58,7 +65,7 @@
     </div>
 
     <!-- header -->
-    <div class="flex items-center mt-8 h-[450px]">
+    <div class="relative flex items-center mt-8 h-[450px]">
       <div class="items-center grid grid-flow-col container">
         <div>
           <div>
@@ -74,7 +81,7 @@
             expect, and always keep up with trends.
           </p>
 
-          <a href="#" class="primary-btn">Get In Touch</a>
+          <a href="#" class="form-toggle primary-btn">Get In Touch</a>
         </div>
 
         <img
@@ -85,6 +92,42 @@
       </div>
     </div>
 
+    <!-- stats -->
+    <div
+      id="stats"
+      class="bg-primary-color backdrop-blur-sm my-[30px] py-7 text-center text-white"
+    >
+      <div class="container">
+        <h1 class="m-auto w-[700px] text-[25px]">
+          Welcome to the premier platform for developing cutting-edge
+          applications with state-of-the-art architecture and seamless
+          scalability.
+        </h1>
+
+        <!-- grid items -->
+        <div class="grid grid-cols-3 mt-10">
+          <!-- grid item 1 -->
+          <div>
+            <span class="counter">23+</span>
+            <h3>Total Awards</h3>
+          </div>
+
+          <!-- grid item 2 -->
+          <div>
+            <span class="counter">8+</span>
+            <h3>Years of Services</h3>
+          </div>
+
+          <!-- grid item 3 -->
+          <div>
+            <span class="counter">80+</span>
+            <h3>Happy Clients</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

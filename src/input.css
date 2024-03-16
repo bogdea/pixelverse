@@ -66,3 +66,17 @@
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+/* stats */
+#stats span {
+  font-size: 30px;
+}
+
+#stats h3 {
+  font-size: 20px;
+}
+
+/* counter */
+.counter:not(.is-visible) {
+  visibility: hidden;
+}
