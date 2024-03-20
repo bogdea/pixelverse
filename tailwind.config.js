@@ -7,6 +7,10 @@ module.exports = {
         "primary-color": "var(--primary-color)",
         "secondary-color": "var(--secondary-color)",
       },
+
+      screens: {
+        sm: "450px",
+      },
     },
   },
   plugins: [],
