@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
@@ -47,8 +48,8 @@
     </div>
 
     <!-- mobile navbar links -->
-    <!-- <div
-      class="top-[1000px] top-0 right-0 z-10 absolute flex justify-center items-center md:hidden bg-white w-full h-screen transition-all mobile-navbar"
+    <div
+      class="top-0 right-0 z-10 absolute flex justify-center items-center hidden bg-white w-full h-screen transition-all mobile-navbar"
     >
       <ul class="flex flex-col space-y-3 text-center">
         <li>
@@ -64,7 +65,7 @@
           <a href="#" class="text-2xl">Contact</a>
         </li>
       </ul>
-    </div> -->
+    </div>
 
     <!-- header -->
     <div class="relative flex items-center mt-8 h-[450px]">
@@ -83,7 +84,9 @@
             expect, and always keep up with trends.
           </p>
 
-          <a href="#" class="form-toggle primary-btn">Get In Touch</a>
+          <a href="#" class="form-toggle mt-[10px] rounded-[10px] primary-btn"
+            >Get In Touch</a
+          >
         </div>
 
         <img
@@ -130,7 +133,7 @@
     </div>
 
     <!-- frameworks -->
-    <div class="mb-[30px] h-[200px]">
+    <div class="mb-[30px] h-auto">
       <div
         class="flex flex-col justify-center items-center text-center container"
       >
@@ -175,6 +178,34 @@
             <img src="../media/svelte.png" alt="svelte" class="h-[150px]" />
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- newsletter -->
+    <div class="bg-secondary-color mt-[30px] py-9 h-auto">
+      <div
+        class="flex lg:flex-row flex-col justify-center lg:justify-between items-center h-full container"
+      >
+        <!-- text -->
+        <h1
+          class="mb-2 lg:mb-0 font-bold text-center text-primary-color text-xl md:text-2xl uppercase"
+        >
+          Subscribe to our newsletter
+        </h1>
+
+        <!-- subscribe form -->
+        <form class="flex items-center">
+          <input
+            type="email"
+            placeholder="Enter your e-mail"
+            class="px-[20px] py-[10px] rounded-[10px] rounded-r-none outline-none"
+          />
+          <input
+            type="button"
+            value="Subscribe"
+            class="hover:border-primary-color hover:bg-primary-color rounded-[10px] rounded-l-none hover:text-white uppercase primary-btn"
+          />
+        </form>
       </div>
     </div>
 
