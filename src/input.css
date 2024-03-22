@@ -23,7 +23,6 @@
   font-weight: 500;
   background: var(--primary-color);
   padding: 10px 20px;
-  border-radius: 10px;
   border: 2px solid var(--primary-color);
   transition: 0.2s ease;
 }
