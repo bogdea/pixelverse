@@ -12,7 +12,8 @@
 
 Pixelverse is a fictional front-end web development company.
 
-![app-preview]()
+![app-preview](https://github.com/bogdea/pixelverse/assets/160140232/deef3734-a171-40b7-b4c3-c6dca1c190dd)
+
 
 ## Live Demo
 
